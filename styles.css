@@ -1,5 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Radley&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    list-style-type: none;
+}
+
+:root {
+    --clr-primary-1: #8E9AAF;
+    --clr-primary-2: #CBC0D3;
+    --clr-primary-3: #EFD3D7;
+    --clr-primary-4: #FEEAFA;
+    --clr-primary-5: #DEE2FF;
+    --clr-primary-6: #F3A6B1;
+}
+
+.value-messaging {
+    background-color: var(--clr-primary-6);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hamburger-menu-icon {
+    position: absolute;
+    background-color: var(--clr-primary-2);
+    padding: 20px;
+    right: 0;
+    top: 0;
+}
+
+.hamburger-menu {
+    position: absolute;
+    background-color: #8E9AAF;
+    padding: 30px;
+    right: 0;
+    top: 3.5em;
+    line-height: 33px;
+}
+
+.user-icon {
+    font-size: 30px;
+}
+
+.user-name {
+    font: 23px bold;
+}
+
+img.store-logo {
+    width: 175px;
+}
+
+.navbar-menu {
+    background: var(--clr-primary-5);
+    text-align: center;
+}
+
+.navbar-menu ul {
+    display: inline-flex;
+
+    
+}
+
+.navbar-menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.navbar-menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.active,
+.navbar-menu ul li:hover {
+    background: #c5c8df;
+    border-radius: 3px;
+}
+
+.navbar-submenu-1 {
+    display: none;
+
+}
+
+.navbar-menu ul li:hover .navbar-submenu-1 {
+    display: block;
+    position: absolute;
+    background: #EFD3D7;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar-menu ul li:hover .navbar-submenu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar-menu ul li:hover .navbar-submenu-1 ul li {
+    width: 175px;
+    padding: 10px;
+    border: solid rgb(185, 178, 178);
+    border-radius: 2px;
+}
+
+.navbar-menu ul li:hover .navbar-submenu-1 ul li a:hover {
+    color: aliceblue;
 }
