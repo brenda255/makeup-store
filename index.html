@@ -31,24 +31,28 @@
                     <span class="user-name">Andy</span>
                 </div>
 
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Featured Products</a></li>
-                    <li><a href="#">Makeup</a></li>
-                    <li><a href="#">SkinCare</a></li>
-                    <li><a href="#">Body</a></li>
-                    <li><a href="#">Hair</a></li>
-                </ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Featured Products</a></li>
+                <li><a href="#">Makeup</a></li>
+                <li><a href="#">SkinCare</a></li>
+                <li><a href="#">Body</a></li>
+                <li><a href="#">Hair</a></li>
+            </ul>
         </nav>
-
+<div class="center-page">
         <!-- NavBar Section -->
         <div class="navbar-container">
             <nav>
-                <!-- Store LOGO -->
-                <img src="images/VELOURA LOGO.png" alt="veloura-logo" class="store-logo">
 
                 <!-- Navbar Menu Items -->
                 <div class="navbar-menu">
-                    <ul>
+
+                    <!-- Store LOGO -->
+                    <div class="navbar-left">
+                        <img src="images/VELOURA LOGO.png" alt="veloura-logo" class="store-logo">
+                    </div>
+
+                    <ul class="navbar-center">
                         <li class="active"><a href="#">New</a>
 
                             <div class="navbar-submenu-1">
@@ -128,23 +132,28 @@
                             </div>
                         </li>
                     </ul>
+
+                    <!-- Search Bar -->
+                    <div class="navbar-right">
+                        <div class="search-container">
+                            <input class="search-input" type="text" placeholder="Search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </div>
+
+                        <div class="user-icon"><i class="fa-solid fa-user"></i></div>
+                        <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+
                 </div>
 
 
-                <!-- Search Bar -->
-                <div class="search-container">
-                    <input type="text" placeholder="Search">
-                    <button type="submit"></button>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <div class="user-login"><i class="fa-solid fa-user"></i></div>
-                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
             </nav>
+        </div>
     </header>
     <main>
         <!-- Hero Section -->
         <div class="hero">
-            <!-- <img src="images/makeup 1.jpg" alt=""> -->
+            <img src="images/makeup 1.jpg" alt="">
         </div>
 
         <!-- Sort By Section -->
