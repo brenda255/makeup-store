@@ -108,7 +108,7 @@
     padding: 0 20px;
 } */
 
-.navbar-left{
+.navbar-left {
     display: flex;
     align-items: center;
 }
@@ -131,10 +131,11 @@ img.store-logo {
     height: 13vh;
 }
 
-.navbar-center{
+.navbar-center {
     display: flex;
     padding: 0;
 }
+
 .navbar-menu ul {
     display: inline-flex;
 }
@@ -187,7 +188,7 @@ img.store-logo {
     color: aliceblue;
 }
 
-.navbar-right{
+.navbar-right {
     display: flex;
     align-items: center;
     gap: 18px;
@@ -228,14 +229,15 @@ img.store-logo {
     cursor: pointer;
 }
 
-.user-icon, .cart-icon{
+.user-icon,
+.cart-icon {
     font-size: 20px;
     padding: 2px 10px;
     cursor: pointer;
     margin-left: auto;
 }
 
-.icons:hover{
+.icons:hover {
     color: #666;
 }
 
@@ -254,7 +256,7 @@ img.store-logo {
     object-fit: cover;
 }
 
-.shop-layout{
+.shop-layout {
     display: flex;
     gap: 20px;
     max-width: 1200px;
@@ -262,18 +264,19 @@ img.store-logo {
 }
 
 /* Left Sidebar */
-.sidebar{
+.sidebar {
     width: 250px;
     padding: 20px;
     background: #f8f8f8;
     border-radius: 10px;
 }
+
 /* Sort by section */
-.sort-by{
+.sort-by {
     margin-bottom: 20px;
 }
 
-.sort-by select{
+.sort-by select {
     width: 100%;
     padding: 8px;
     border-radius: 5px;
@@ -281,23 +284,31 @@ img.store-logo {
 }
 
 /* Filter Section */
-.filter-by h3{
+.filter-title{
+    margin-bottom: 24px;
+}
+.filter-by h3 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.filter-by form{
+.filter-by form {
     display: flex;
     flex-direction: column;
+    gap: 8px; /*Space between checkboxes*/
+    margin-bottom: 18px; /*Space between different filter sections*/
 }
 
-.filter-by input{
-    margin-bottom: 5px;
+.filter-by label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
 }
+
 .filter-by input[type="checkbox"] {
-    margin-right: 8px; 
-    vertical-align: middle;
+    margin: 0;
 }
 
 /* Featured Products Section */
@@ -307,7 +318,7 @@ img.store-logo {
 
 .product-showcase {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -320,11 +331,11 @@ img.store-logo {
     text-align: center;
 }
 
-.add-to-bag-btn{
+.add-to-bag-btn {
     margin-top: 10px;
     padding: 10px;
     background: #e6007e;
-    color:white;
+    color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -353,10 +364,12 @@ img.store-logo {
     .shop-layout {
         flex-direction: column;
     }
+
     .sidebar {
         width: 100%;
     }
-    .product-showcase{
-        grid-template-columns: repeat(2,1fr);
+
+    .product-showcase {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
