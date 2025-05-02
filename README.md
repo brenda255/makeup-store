@@ -5,6 +5,7 @@ Veloura Beauty is a sleek, mockup of a makeup online store built with HTML and C
   * [Built With](#built-with)
   * [Screenshot](#screenshot)
   * [Future Improvements](#future-improvements)
+  * [Deployment](#deployment)
   * [Questions](#questions)
 
 ## Built With
@@ -21,8 +22,11 @@ Veloura Beauty is a sleek, mockup of a makeup online store built with HTML and C
 * Integrate a backend.
 * Add animations and transitions for smoother UI/UX.
 
- ## Questions
-  You can contact me with any questions below! 
+## Deployment
+https://brenda255.github.io/makeup-store/ 
+
+## Questions
+You can contact me with any questions below! 
 
 
-  GitHub: https://github.com/brenda255 
+GitHub: https://github.com/brenda255 
