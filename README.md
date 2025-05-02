@@ -1,4 +1,4 @@
-## Veloura Beauty - Makeup Store
+# Veloura Beauty - Makeup Store
 Veloura Beauty is a sleek, mockup of a makeup online store built with HTML and CSS. 
 
 ## Table of Contents
